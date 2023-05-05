@@ -37,7 +37,12 @@ winner=candidates[votes_per_candidate.index(max(votes_per_candidate))]
 output= output+f'-----------------------------\n Winner: {winner} \n'
 output=output + f'-----------------------------'
 
+
+print(output)
+
 #export and save as a text file
+
+
 
 csvpath=Path("Analysis", 'Final Analysis.txt')
 with open(csvpath,"w") as textfile:
